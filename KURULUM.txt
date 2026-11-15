@@ -1,0 +1,74 @@
+SPOR SALONUM — GELİŞTİRİLMİŞ TASARIM
+
+GÜNCELLEME
+Bu klasörün İÇİNDEKİ dosyaları eski projenin içine kopyala.
+Yeni klasörü olduğu gibi eski klasörün içine koyma.
+Aynı isimli dosyaları değiştir, sonra Ctrl + F5 yap.
+
+YENİ BÖLÜMLER
+- Fotoğraflı yeni ana sayfa, açıklamalı branş kartları ve Pilates tanıtımı.
+- salon.php: altı fotoğraflı galeri; tıklanınca büyütme, Escape ile kapatma.
+- Ana sayfada hedef seçme ve ilgili branşa yönlendirme.
+- İlk adım rehberi ve açılır sık sorulan sorular.
+- Ayrıntılı Pilates karşılaştırması ve paket içerikleri.
+- Ders programında branşa göre anında filtreleme.
+- Açık ve koyu temayla uyumlu yeni tasarım.
+- Fotoğraflar internet bağlantısıyla yüklenir; yerel resimlerle değiştirilebilir.
+
+KOLAY DÜZENLEME
+Ana sayfa yazıları: index.php.
+Galeri başlık ve açıklamaları: salon.php içindeki $galeri dizisi.
+Yeni tasarım: stil.css dosyasında GELİŞTİRİLMİŞ TASARIM başlığından sonraki bölüm.
+Başlangıç verileri ve üyelik işlemleri önceki sürümle aynı yapıdadır.
+Bu sürüm de oturum kullanır; kalıcı kayıt özelliği eklenmemiştir.
+
+1. Eski proje klasörünün yedeğini al.
+2. Bu klasörün İÇİNDEKİ dosyaları C:\xampp\htdocs\Spor_Salonum içine kopyala.
+   index.php doğrudan bu klasörün içinde olmalı; iç içe klasör oluşturma.
+3. XAMPP'ta Apache'yi başlat. MySQL gerekli değildir.
+4. http://localhost/Spor_Salonum/ adresini aç ve Ctrl + F5 yap.
+
+SAYFALAR
+index.php: ana sayfa
+sporlar.php: fotoğraflı branşlar ve tıklanınca açılan ayrıntılar
+pilates.php: Mat/Reformer ve seans paketleri
+program.php: örnek haftalık ders programı
+uyelik.php: üye ekleme ve düzenleme
+uyeler.php: arama, filtreleme, düzenleme, onaylı silme
+hakkimizda.php: tanıtım, çalışma saatleri, iletişim ve fotoğraf kaynakları
+
+ORTAK DOSYALAR
+ortak.php: örnek üyeler, oturum, branşlar, fotoğraf adresleri ve yardımcı işlevler
+ust.php / alt.php: her sayfada görünen menü ve alt bölüm
+stil.css: tasarım, tema renkleri ve animasyonlar
+hareket.js: tema düğmesi ve form alanlarının branşa göre değişmesi
+
+FOTOĞRAFLAR
+Örnek fotoğraflar Unsplash adreslerinden yüklenir; internet bağlantısı gerekir.
+İnternetsiz kullanım için kendi fotoğraflarını resimler klasörüne koy.
+ortak.php içindeki $resimler bölümünde adresi örneğin resimler/pilates.jpg yap.
+Fotoğraf kaynakları hakkimizda.php sayfasında bulunur.
+
+KAYITLAR
+Veritabanı kullanılmaz. Kayıtlar PHP oturumunda saklanır; kalıcı değildir.
+Önceki sürümde aynı tarayıcı oturumunda eklenen üyeler korunur; eksik branş bilgisi Fitness olarak tamamlanır.
+Yeni kayıtlar farklı tarayıcılar arasında ortak değildir.
+Üyelik kaydı kullanıcı hesabı, ödeme veya ders rezervasyonu oluşturmaz.
+Pilates paketleri seans adını saklar; kullanılan seansları düşmez.
+Bitiş tarihi elle seçilir; bitiş günü üyeliğe dahildir.
+
+DEĞİŞTİRME
+Renkler: stil.css dosyasının başındaki iki tema bölümü.
+Başlık ve yazılar: ilgili PHP sayfasının HTML bölümü.
+Branşlar ve fotoğraflar: ortak.php.
+Dersler: program.php içindeki $dersler dizisi.
+İletişim ve saatler: hakkimizda.php. Yer tutucu bilgileri sunumdan önce değiştir.
+
+KONTROL
+Pilates sayfasından bir paket seç, Mat veya Reformer belirt, üye ekle.
+Üye yönetiminde ismi ara, branş filtresi uygula, bitiş tarihini düzenle.
+Sil düğmesine basıp Vazgeç'i, sonra onaylı silmeyi dene.
+Tema düğmesine bas ve başka bir sayfaya geç; tema korunmalı.
+Sayfayı yenile; eklenen üye ikinci kez eklenmemeli.
+
+Bu yerel bir ders projesidir; gerçek kişisel bilgi yerine örnek veriler kullan.

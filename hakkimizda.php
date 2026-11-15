@@ -1,0 +1,12 @@
+<?php
+require 'ortak.php';
+$baslik = 'Hakkımızda ve İletişim';
+$sayfa = 'hakkimizda.php';
+require 'ust.php';
+?>
+<div class="sayfa-baslik"><p class="etiket">AHMFİTS</p><h1>Hareket için<br><span>bir araya geliyoruz.</span></h1><p>Farklı hedefleri aynı çatı altında buluşturan örnek bir spor salonu projesi.</p></div>
+<section class="iki-sutun"><article class="bilgi-karti"><h2>Salonumuz</h2><p>Fitness, Powerlifting, Pilates ve Kardiyo alanlarını keşfetmek; üyelik bilgilerini tek yerden takip etmek için tasarlandı.</p><p>Bu çalışma eğitim amaçlıdır. Salon ve program bilgileri örnektir.</p></article><article class="bilgi-karti"><h2>Çalışma saatleri</h2><p>Hafta içi: 07.00 – 23.00</p><p>Cumartesi: 09.00 – 21.00</p><p>Pazar: 10.00 – 18.00</p><p class="not">Saatler örnektir; buradan değiştirebilirsin.</p></article></section>
+<section class="bilgi-karti"><p class="etiket">İLETİŞİM</p><h2>Bize ulaşın.</h2><p>Adres: Kendi salon adresinizi buraya yazın.</p><p>Telefon: Kendi iletişim numaranızı buraya yazın.</p><p>E-posta: Kendi e-posta adresinizi buraya yazın.</p></section>
+<details class="bilgi-karti"><summary>Fotoğraf kaynakları <span>+</span></summary><p>Örnek görseller Unsplash'tan alınmıştır. Bunları ortak.php dosyasındaki adresleri değiştirerek kendi fotoğraflarınızla değiştirebilirsiniz.</p><ul><li><a href="https://unsplash.com/photos/a-man-doing-squats-with-a-barbell-in-a-gym-Kqu4zuiQAp4" target="_blank" rel="noopener noreferrer">Fitness fotoğrafı ↗</a></li><li><a href="https://unsplash.com/photos/person-lifting-barbell-in-gym-vqDAUejnwKw" target="_blank" rel="noopener noreferrer">Powerlifting — Victor Freitas ↗</a></li><li><a href="https://unsplash.com/photos/woman-practices-pilates-using-gym-equipment-iyV-7sFHwXI" target="_blank" rel="noopener noreferrer">Pilates — Ahmet Kurt ↗</a></li><li><a href="https://unsplash.com/photos/treadmills-on-gym-pCT8ag1o3nU" target="_blank" rel="noopener noreferrer">Kardiyo — Ryan De Hamer ↗</a></li></ul></details>
+<details class="bilgi-karti"><summary>Salon ve stüdyo görselleri <span>+</span></summary><p>Salon sayfasındaki görseller proje için kullanılan örneklerdir.</p><ul><li><a href="https://unsplash.com/photos/modern-gym-with-exercise-equipment-and-city-view-fuyulf8cNmg" target="_blank" rel="noopener noreferrer">Salon iç mekânı — Aalo Lens / Unsplash ↗</a></li><li><a href="https://unsplash.com/photos/modern-yoga-studio-with-large-windows-and-mats-oaJaBFVMUQ4" target="_blank" rel="noopener noreferrer">Mat stüdyosu — eran design / Unsplash ↗</a></li></ul></details>
+<?php require 'alt.php'; ?>
